@@ -5,6 +5,7 @@ java.options.push '-Xmx4g'
 
 java.classpath.push "#{__dirname}/../jar/ejml-core-0.39.jar"
 java.classpath.push "#{__dirname}/../jar/ejml-simple-0.39.jar"
+java.classpath.push "#{__dirname}/../jar/ejml-ddense-0.39.jar"
 java.classpath.push "#{__dirname}/../jar/joda-time.jar"
 java.classpath.push "#{__dirname}/../jar/jollyday.jar"
 java.classpath.push "#{__dirname}/../jar/xom.jar"
